@@ -21,14 +21,16 @@
 } */
 
 body {
-  background-color: #fff;
+  background: linear-gradient(280deg, #000000, #272c35);
+  height: 100vh;
+  width: 100vw;
   background: radial-gradient(
     circle at center,
-    #fff 0%,
-    #f8f8f8 75%,
-    #ebebeb 100%
+    /* #222831 0%,
+    #222831 75%,
+    #222831 100% */
   );
-  color: #222;
+  /* color: #222; */
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif;
   font-size: 1rem;
@@ -46,13 +48,15 @@ h1 {
   font-size: 2.5rem;
   line-height: 1.1;
   margin: 0;
+  color: #EEEEEE;
 }
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 1.5rem;
   }
 }
-h1::after {
+
+/* h1::after {
   content: "";
   background-color: #ffe800;
   background: repeating-linear-gradient(
@@ -65,11 +69,12 @@ h1::after {
   display: block;
   height: 0.5rem;
   margin-top: 1rem;
-}
-img {
+} */
+/* img {
   max-width: 100%;
   height: auto;
-}
-p {
+} */
+p, #id {
   margin: 1rem 0 0 0;
+  color: #EEEEEE;
 }
