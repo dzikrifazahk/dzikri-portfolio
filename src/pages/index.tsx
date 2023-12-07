@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import LottieView from "lottie-react-native";
 import Lottie from "lottie-react";
 import animationData from "../lotties/hammer.json";
 import Banner from "@/components/card/banner";
